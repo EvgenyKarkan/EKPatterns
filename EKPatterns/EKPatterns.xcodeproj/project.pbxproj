@@ -73,6 +73,9 @@
 		DED2DB8F183AC19C009B7168 /* EKPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				DED2DBAE183AC595009B7168 /* Creational */,
+				DED2DBB4183AC5A6009B7168 /* Structural */,
+				DED2DBA2183AC595009B7168 /* Behavioral */,
 				DED2DB90183AC19C009B7168 /* main.m */,
 				DED2DB94183AC19C009B7168 /* EKPatterns.1 */,
 				DED2DB92183AC19C009B7168 /* Supporting Files */,
@@ -86,6 +89,211 @@
 				DED2DB93183AC19C009B7168 /* EKPatterns-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DED2DBA2183AC595009B7168 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				DED2DBA3183AC595009B7168 /* Chains of Responsibility */,
+				DED2DBA4183AC595009B7168 /* Command */,
+				DED2DBA5183AC595009B7168 /* Interpreter */,
+				DED2DBA6183AC595009B7168 /* Iterator */,
+				DED2DBA7183AC595009B7168 /* Mediator */,
+				DED2DBA8183AC595009B7168 /* Memento */,
+				DED2DBA9183AC595009B7168 /* Observer */,
+				DED2DBAA183AC595009B7168 /* State */,
+				DED2DBAB183AC595009B7168 /* Strategy */,
+				DED2DBAC183AC595009B7168 /* Template Method */,
+				DED2DBAD183AC595009B7168 /* Visitor */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		DED2DBA3183AC595009B7168 /* Chains of Responsibility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Chains of Responsibility";
+			sourceTree = "<group>";
+		};
+		DED2DBA4183AC595009B7168 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		DED2DBA5183AC595009B7168 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		DED2DBA6183AC595009B7168 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		DED2DBA7183AC595009B7168 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		DED2DBA8183AC595009B7168 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		DED2DBA9183AC595009B7168 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		DED2DBAA183AC595009B7168 /* State */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		DED2DBAB183AC595009B7168 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		DED2DBAC183AC595009B7168 /* Template Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Template Method";
+			sourceTree = "<group>";
+		};
+		DED2DBAD183AC595009B7168 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		DED2DBAE183AC595009B7168 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				DED2DBAF183AC595009B7168 /* Abstract Factory */,
+				DED2DBB0183AC595009B7168 /* Builder */,
+				DED2DBB1183AC595009B7168 /* Factory Method */,
+				DED2DBB2183AC595009B7168 /* Prototype */,
+				DED2DBB3183AC595009B7168 /* Singleton */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		DED2DBAF183AC595009B7168 /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		DED2DBB0183AC595009B7168 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		DED2DBB1183AC595009B7168 /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		DED2DBB2183AC595009B7168 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		DED2DBB3183AC595009B7168 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		DED2DBB4183AC5A6009B7168 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				DED2DBB5183AC5A6009B7168 /* Adapter */,
+				DED2DBB6183AC5A6009B7168 /* Bridge */,
+				DED2DBB7183AC5A6009B7168 /* Composite */,
+				DED2DBB8183AC5A6009B7168 /* Decorator */,
+				DED2DBB9183AC5A6009B7168 /* Facade */,
+				DED2DBBA183AC5A6009B7168 /* Flyweight */,
+				DED2DBBB183AC5A6009B7168 /* Proxy */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		DED2DBB5183AC5A6009B7168 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		DED2DBB6183AC5A6009B7168 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		DED2DBB7183AC5A6009B7168 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		DED2DBB8183AC5A6009B7168 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		DED2DBB9183AC5A6009B7168 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		DED2DBBA183AC5A6009B7168 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		DED2DBBB183AC5A6009B7168 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proxy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
