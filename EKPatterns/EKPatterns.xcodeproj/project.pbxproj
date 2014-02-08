@@ -16,6 +16,7 @@
 		DE5868E718A6C5D0007ABE80 /* EKEuropeHouseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5868E618A6C5D0007ABE80 /* EKEuropeHouseFactory.m */; };
 		DE5868EA18A6C98A007ABE80 /* EKEuropeScyscraper.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5868E918A6C98A007ABE80 /* EKEuropeScyscraper.m */; };
 		DE5868ED18A6C9AE007ABE80 /* EKEuropeCastle.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5868EC18A6C9AE007ABE80 /* EKEuropeCastle.m */; };
+		DE5868F018A6D960007ABE80 /* EKSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5868EF18A6D960007ABE80 /* EKSingleton.m */; };
 		DED2DB8E183AC19C009B7168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED2DB8D183AC19C009B7168 /* Foundation.framework */; };
 		DED2DB91183AC19C009B7168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2DB90183AC19C009B7168 /* main.m */; };
 		DED2DB95183AC19C009B7168 /* EKPatterns.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DED2DB94183AC19C009B7168 /* EKPatterns.1 */; };
@@ -53,6 +54,8 @@
 		DE5868E918A6C98A007ABE80 /* EKEuropeScyscraper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEuropeScyscraper.m; sourceTree = "<group>"; };
 		DE5868EB18A6C9AE007ABE80 /* EKEuropeCastle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKEuropeCastle.h; sourceTree = "<group>"; };
 		DE5868EC18A6C9AE007ABE80 /* EKEuropeCastle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEuropeCastle.m; sourceTree = "<group>"; };
+		DE5868EE18A6D960007ABE80 /* EKSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSingleton.h; sourceTree = "<group>"; };
+		DE5868EF18A6D960007ABE80 /* EKSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSingleton.m; sourceTree = "<group>"; };
 		DED2DB8A183AC19B009B7168 /* EKPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EKPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED2DB8D183AC19C009B7168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DED2DB90183AC19C009B7168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -274,6 +277,8 @@
 		DED2DBB3183AC595009B7168 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				DE5868EE18A6D960007ABE80 /* EKSingleton.h */,
+				DE5868EF18A6D960007ABE80 /* EKSingleton.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -392,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5868F018A6D960007ABE80 /* EKSingleton.m in Sources */,
 				DE5868DE18A6C296007ABE80 /* EKAmericanScyscraper.m in Sources */,
 				DE5868E118A6C37B007ABE80 /* EKAmericanCastle.m in Sources */,
 				DE5868D518A6B6D7007ABE80 /* EKScyscraper.m in Sources */,
