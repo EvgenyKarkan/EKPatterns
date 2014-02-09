@@ -9,6 +9,6 @@
 
 @interface EKSingleton : NSObject
 
-+ (instancetype)sharedSingleton;
++ (instancetype)singleton;
 
 @end

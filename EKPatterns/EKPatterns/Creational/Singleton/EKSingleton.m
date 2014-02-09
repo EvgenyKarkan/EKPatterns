@@ -13,7 +13,7 @@
 
 static id sharedInstance = nil;
 
-+ (instancetype)sharedSingleton
++ (instancetype)singleton
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
