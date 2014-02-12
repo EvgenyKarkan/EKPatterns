@@ -10,4 +10,9 @@ GOF design patterns implemented in Objective C.
 - Prototype
 - Singleton
 
+##Structural
+- Adapter
+- Bridge
+- Facade
+
 
