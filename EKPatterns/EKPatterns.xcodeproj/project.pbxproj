@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE010B7418AB761F0025F1E2 /* EKCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B7318AB761F0025F1E2 /* EKCamera.m */; };
+		DE010B7718AB79970025F1E2 /* EKWaterproofCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B7618AB79970025F1E2 /* EKWaterproofCamera.m */; };
+		DE010B7A18AB7C2F0025F1E2 /* EKSomeCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B7918AB7C2F0025F1E2 /* EKSomeCamera.m */; };
+		DE010B7D18AB7DE80025F1E2 /* EKSomeCameraWaterproofAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B7C18AB7DE80025F1E2 /* EKSomeCameraWaterproofAdapter.m */; };
+		DE010B8218AB9AFF0025F1E2 /* EKGasoline.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B8118AB9AFF0025F1E2 /* EKGasoline.m */; };
+		DE010B8518AB9B1B0025F1E2 /* EKGoodGasoline.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B8418AB9B1B0025F1E2 /* EKGoodGasoline.m */; };
+		DE010B8818AB9B2C0025F1E2 /* EKBadGasoline.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B8718AB9B2C0025F1E2 /* EKBadGasoline.m */; };
+		DE010B8B18AB9C660025F1E2 /* EKEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B8A18AB9C660025F1E2 /* EKEngine.m */; };
+		DE010B8E18ABB1240025F1E2 /* EKElevatorFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B8D18ABB1240025F1E2 /* EKElevatorFacade.m */; };
+		DE010B9118ABB1F10025F1E2 /* EKEngineSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B9018ABB1F10025F1E2 /* EKEngineSystem.m */; };
+		DE010B9418ABB2F30025F1E2 /* EKDoorSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B9318ABB2F30025F1E2 /* EKDoorSystem.m */; };
+		DE010B9718ABB42F0025F1E2 /* EKSoundSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = DE010B9618ABB42F0025F1E2 /* EKSoundSystem.m */; };
 		DE1AE80018A7F01400F48568 /* EKBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1AE7FF18A7F01400F48568 /* EKBurger.m */; };
 		DE1AE80918A7F55500F48568 /* EKBurgerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1AE80818A7F55500F48568 /* EKBurgerBuilder.m */; };
 		DE1AE80C18A7F81200F48568 /* EKHamburgerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1AE80B18A7F81200F48568 /* EKHamburgerBuilder.m */; };
@@ -46,6 +58,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE010B7218AB761F0025F1E2 /* EKCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCamera.h; sourceTree = "<group>"; };
+		DE010B7318AB761F0025F1E2 /* EKCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCamera.m; sourceTree = "<group>"; };
+		DE010B7518AB79970025F1E2 /* EKWaterproofCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKWaterproofCamera.h; sourceTree = "<group>"; };
+		DE010B7618AB79970025F1E2 /* EKWaterproofCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKWaterproofCamera.m; sourceTree = "<group>"; };
+		DE010B7818AB7C2F0025F1E2 /* EKSomeCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSomeCamera.h; sourceTree = "<group>"; };
+		DE010B7918AB7C2F0025F1E2 /* EKSomeCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSomeCamera.m; sourceTree = "<group>"; };
+		DE010B7B18AB7DE80025F1E2 /* EKSomeCameraWaterproofAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSomeCameraWaterproofAdapter.h; sourceTree = "<group>"; };
+		DE010B7C18AB7DE80025F1E2 /* EKSomeCameraWaterproofAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSomeCameraWaterproofAdapter.m; sourceTree = "<group>"; };
+		DE010B7E18AB812E0025F1E2 /* EKImports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKImports.h; sourceTree = "<group>"; };
+		DE010B7F18AB834C0025F1E2 /* EKHelperFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKHelperFunctions.h; sourceTree = "<group>"; };
+		DE010B8018AB9AFF0025F1E2 /* EKGasoline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKGasoline.h; sourceTree = "<group>"; };
+		DE010B8118AB9AFF0025F1E2 /* EKGasoline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKGasoline.m; sourceTree = "<group>"; };
+		DE010B8318AB9B1B0025F1E2 /* EKGoodGasoline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKGoodGasoline.h; sourceTree = "<group>"; };
+		DE010B8418AB9B1B0025F1E2 /* EKGoodGasoline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKGoodGasoline.m; sourceTree = "<group>"; };
+		DE010B8618AB9B2C0025F1E2 /* EKBadGasoline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKBadGasoline.h; sourceTree = "<group>"; };
+		DE010B8718AB9B2C0025F1E2 /* EKBadGasoline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKBadGasoline.m; sourceTree = "<group>"; };
+		DE010B8918AB9C660025F1E2 /* EKEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKEngine.h; sourceTree = "<group>"; };
+		DE010B8A18AB9C660025F1E2 /* EKEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEngine.m; sourceTree = "<group>"; };
+		DE010B8C18ABB1240025F1E2 /* EKElevatorFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKElevatorFacade.h; sourceTree = "<group>"; };
+		DE010B8D18ABB1240025F1E2 /* EKElevatorFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKElevatorFacade.m; sourceTree = "<group>"; };
+		DE010B8F18ABB1F10025F1E2 /* EKEngineSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKEngineSystem.h; sourceTree = "<group>"; };
+		DE010B9018ABB1F10025F1E2 /* EKEngineSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEngineSystem.m; sourceTree = "<group>"; };
+		DE010B9218ABB2F30025F1E2 /* EKDoorSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDoorSystem.h; sourceTree = "<group>"; };
+		DE010B9318ABB2F30025F1E2 /* EKDoorSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDoorSystem.m; sourceTree = "<group>"; };
+		DE010B9518ABB42F0025F1E2 /* EKSoundSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSoundSystem.h; sourceTree = "<group>"; };
+		DE010B9618ABB42F0025F1E2 /* EKSoundSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSoundSystem.m; sourceTree = "<group>"; };
 		DE1AE7FE18A7F01400F48568 /* EKBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKBurger.h; sourceTree = "<group>"; };
 		DE1AE7FF18A7F01400F48568 /* EKBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKBurger.m; sourceTree = "<group>"; };
 		DE1AE80718A7F55500F48568 /* EKBurgerBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKBurgerBuilder.h; sourceTree = "<group>"; };
@@ -147,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				DED2DB93183AC19C009B7168 /* EKPatterns-Prefix.pch */,
+				DE010B7E18AB812E0025F1E2 /* EKImports.h */,
+				DE010B7F18AB834C0025F1E2 /* EKHelperFunctions.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -350,6 +390,14 @@
 		DED2DBB5183AC5A6009B7168 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				DE010B7218AB761F0025F1E2 /* EKCamera.h */,
+				DE010B7318AB761F0025F1E2 /* EKCamera.m */,
+				DE010B7518AB79970025F1E2 /* EKWaterproofCamera.h */,
+				DE010B7618AB79970025F1E2 /* EKWaterproofCamera.m */,
+				DE010B7818AB7C2F0025F1E2 /* EKSomeCamera.h */,
+				DE010B7918AB7C2F0025F1E2 /* EKSomeCamera.m */,
+				DE010B7B18AB7DE80025F1E2 /* EKSomeCameraWaterproofAdapter.h */,
+				DE010B7C18AB7DE80025F1E2 /* EKSomeCameraWaterproofAdapter.m */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -357,6 +405,14 @@
 		DED2DBB6183AC5A6009B7168 /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				DE010B8018AB9AFF0025F1E2 /* EKGasoline.h */,
+				DE010B8118AB9AFF0025F1E2 /* EKGasoline.m */,
+				DE010B8318AB9B1B0025F1E2 /* EKGoodGasoline.h */,
+				DE010B8418AB9B1B0025F1E2 /* EKGoodGasoline.m */,
+				DE010B8618AB9B2C0025F1E2 /* EKBadGasoline.h */,
+				DE010B8718AB9B2C0025F1E2 /* EKBadGasoline.m */,
+				DE010B8918AB9C660025F1E2 /* EKEngine.h */,
+				DE010B8A18AB9C660025F1E2 /* EKEngine.m */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
@@ -378,6 +434,14 @@
 		DED2DBB9183AC5A6009B7168 /* Facade */ = {
 			isa = PBXGroup;
 			children = (
+				DE010B8C18ABB1240025F1E2 /* EKElevatorFacade.h */,
+				DE010B8D18ABB1240025F1E2 /* EKElevatorFacade.m */,
+				DE010B8F18ABB1F10025F1E2 /* EKEngineSystem.h */,
+				DE010B9018ABB1F10025F1E2 /* EKEngineSystem.m */,
+				DE010B9218ABB2F30025F1E2 /* EKDoorSystem.h */,
+				DE010B9318ABB2F30025F1E2 /* EKDoorSystem.m */,
+				DE010B9518ABB42F0025F1E2 /* EKSoundSystem.h */,
+				DE010B9618ABB42F0025F1E2 /* EKSoundSystem.m */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -448,10 +512,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1AE80018A7F01400F48568 /* EKBurger.m in Sources */,
+				DE010B8218AB9AFF0025F1E2 /* EKGasoline.m in Sources */,
 				DE5868F018A6D960007ABE80 /* EKSingleton.m in Sources */,
+				DE010B8B18AB9C660025F1E2 /* EKEngine.m in Sources */,
 				DE5868DE18A6C296007ABE80 /* EKAmericanScyscraper.m in Sources */,
 				DE1AE80C18A7F81200F48568 /* EKHamburgerBuilder.m in Sources */,
+				DE010B7418AB761F0025F1E2 /* EKCamera.m in Sources */,
 				DE6E3BCA18A7933800A0BBE8 /* EKBike.m in Sources */,
+				DE010B7A18AB7C2F0025F1E2 /* EKSomeCamera.m in Sources */,
 				DE6E3BD318A7960200A0BBE8 /* EKBikeFactory.m in Sources */,
 				DE6E3BD018A795CA00A0BBE8 /* EKSportBike.m in Sources */,
 				DE5868E118A6C37B007ABE80 /* EKAmericanCastle.m in Sources */,
@@ -461,13 +529,21 @@
 				DE5868ED18A6C9AE007ABE80 /* EKEuropeCastle.m in Sources */,
 				DE6E3BD618A7A7E100A0BBE8 /* EKSmartphone.m in Sources */,
 				DE1AE80918A7F55500F48568 /* EKBurgerBuilder.m in Sources */,
+				DE010B9418ABB2F30025F1E2 /* EKDoorSystem.m in Sources */,
+				DE010B9718ABB42F0025F1E2 /* EKSoundSystem.m in Sources */,
+				DE010B7D18AB7DE80025F1E2 /* EKSomeCameraWaterproofAdapter.m in Sources */,
 				DE5868D818A6B720007ABE80 /* EKCastle.m in Sources */,
 				DE5868E718A6C5D0007ABE80 /* EKEuropeHouseFactory.m in Sources */,
 				DE1AE81218A7FA3300F48568 /* EKManagerOfBurgerBuilders.m in Sources */,
 				DED2DB91183AC19C009B7168 /* main.m in Sources */,
+				DE010B9118ABB1F10025F1E2 /* EKEngineSystem.m in Sources */,
+				DE010B8518AB9B1B0025F1E2 /* EKGoodGasoline.m in Sources */,
 				DE5868D218A6B572007ABE80 /* EKHouseFactory.m in Sources */,
+				DE010B7718AB79970025F1E2 /* EKWaterproofCamera.m in Sources */,
 				DE1AE80F18A7F82E00F48568 /* EKBigMacBuilder.m in Sources */,
 				DE6E3BCD18A795B100A0BBE8 /* EKChopper.m in Sources */,
+				DE010B8818AB9B2C0025F1E2 /* EKBadGasoline.m in Sources */,
+				DE010B8E18ABB1240025F1E2 /* EKElevatorFacade.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

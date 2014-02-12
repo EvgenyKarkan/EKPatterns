@@ -6,43 +6,13 @@
 //  Copyright (c) 2013 EvgenyKarkan. All rights reserved.
 //
 
-    //Abstract factory imports
-#import "EKHouseFactory.h"
-#import "EKAmericanHouseFactory.h"
-#import "EKEuropeHouseFactory.h"
-#import "EKScyscraper.h"
-#import "EKCastle.h"
-    //Builder imports
-#import "EKManagerOfBurgerBuilders.h"
-#import "EKHamburgerBuilder.h"
-#import "EKBigMacBuilder.h"
-#import "EKBurger.h"
-    //Factory import
-#import "EKBikeFactory.h"
-    //Prototype import
-#import "EKSmartphone.h"
-    //Singleton import
-#import "EKSingleton.h"
-
-    //Abstract factory helper stuff ----------------------------------------------------------------
-BOOL isEurope = NO;
-EKHouseFactory *functionThatReturnsFactory();
-
-EKHouseFactory *functionThatReturnsFactory()
-{
-    if (isEurope) {
-        return [[EKEuropeHouseFactory alloc] init];
-    }
-    else {
-        return [[EKAmericanHouseFactory alloc] init];
-    }
-}
-
+#import "EKImports.h" //  Classes imports. For ease of reading main.m file
+#import "EKHelperFunctions.h" // <-- this file contains functions which helps to test APIs
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        
+            //CREATIONAL----------------------------------------------------------------------------
             //Abstract factory
         EKHouseFactory *factory = functionThatReturnsFactory();
         EKScyscraper *scyscraper = [factory scyscraper];
@@ -98,6 +68,34 @@ int main(int argc, const char * argv[])
         NSLog(@"Foo memory address is %p", foo);
         NSLog(@"Bar memory address is %p", bar);
         
+            //STRUCTURAL----------------------------------------------------------------------------
+            //Adapter
+        printf("\n%s\n", "ADAPTER  -----------------------------------------------------------------");
+        EKWaterproofCamera *waterproofCamera = [[EKWaterproofCamera alloc] init];
+        makeNewShot(waterproofCamera);
+        
+        EKSomeCamera *someAnotherCamera = [[EKSomeCamera alloc] init];
+        EKSomeCameraWaterproofAdapter *adapterOfSomeCameraAllowingToMakeUnderwaterShot = [[EKSomeCameraWaterproofAdapter alloc] initWithSomeCameraToAdapt:someAnotherCamera];
+        makeNewShot(adapterOfSomeCameraAllowingToMakeUnderwaterShot);
+        
+            //Bridge
+        printf("\n%s\n", "BRIDGE  ------------------------------------------------------------------");
+        EKEngine *engine = [[EKEngine alloc] init];
+        EKGoodGasoline *goodGasoline = [[EKGoodGasoline alloc] init];
+        EKBadGasoline *badGasoline = [[EKBadGasoline alloc] init];
+        
+        engine.gasoline = goodGasoline;
+        [engine turnOn];
+        
+        engine.gasoline = badGasoline;
+        [engine turnOn];
+        
+            //Facade
+        printf("\n%s\n", "FACADE  ------------------------------------------------------------------");
+        EKElevatorFacade *elevatorFacade = [[EKElevatorFacade alloc] init];
+        [elevatorFacade pressControlPanelButton:42];
+
     }
     return 0;
 }
+
