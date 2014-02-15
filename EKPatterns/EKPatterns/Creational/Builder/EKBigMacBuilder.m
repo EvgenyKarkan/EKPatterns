@@ -40,5 +40,4 @@
     self.burger.ketchup = YES;
 }
 
-
 @end

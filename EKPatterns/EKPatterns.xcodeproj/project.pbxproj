@@ -470,6 +470,7 @@
 				DED2DB86183AC19B009B7168 /* Sources */,
 				DED2DB87183AC19B009B7168 /* Frameworks */,
 				DED2DB88183AC19B009B7168 /* CopyFiles */,
+				DE010B9818ABC5170025F1E2 /* CLOC script */,
 			);
 			buildRules = (
 			);
@@ -505,6 +506,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE010B9818ABC5170025F1E2 /* CLOC script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CLOC script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Total source code lines:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 cat | wc -l";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DED2DB86183AC19B009B7168 /* Sources */ = {
