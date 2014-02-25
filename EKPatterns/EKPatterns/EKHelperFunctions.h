@@ -11,9 +11,9 @@
 
     //Abstract factory helper
 BOOL isEurope = NO;
-EKHouseFactory *functionThatReturnsFactory();
+EKHouseFactory* functionThatReturnsFactory();
 
-EKHouseFactory *functionThatReturnsFactory()
+EKHouseFactory* functionThatReturnsFactory()
 {
     if (isEurope) {
         return [[EKEuropeHouseFactory alloc] init];

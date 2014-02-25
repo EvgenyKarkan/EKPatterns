@@ -9,7 +9,7 @@
 #import "EKSmartphone.h"
 
 
-@implementation EKSmartphone
+@implementation EKSmartphone;
 
 - (id)copyWithZone:(NSZone *)zone
 {

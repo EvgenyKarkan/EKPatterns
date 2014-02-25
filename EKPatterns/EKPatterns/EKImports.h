@@ -39,5 +39,8 @@
 #import "EKBadGasoline.h"
     //Facade
 #import "EKElevatorFacade.h"
+    //Composite
+#import "EKBox.h"
+#import "EKBoxContainer.h"
 
 #endif

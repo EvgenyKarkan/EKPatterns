@@ -41,8 +41,8 @@ static id sharedInstance = nil;
 
 + (id)new
 {
-    NSException *exception = [[NSException alloc] initWithName:@"Deprecated method"
-                                                        reason:@"It's not possible to call +new method directly. Use +sharedInstance instead"
+    NSException *exception = [[NSException alloc] initWithName:@"It's not possible to call +new method directly"
+                                                        reason:@"Use +sharedInstance instead"
                                                       userInfo:nil];
     [exception raise];
     

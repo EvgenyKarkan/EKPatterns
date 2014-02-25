@@ -94,7 +94,42 @@ int main(int argc, const char * argv[])
         printf("\n%s\n", "FACADE  ------------------------------------------------------------------");
         EKElevatorFacade *elevatorFacade = [[EKElevatorFacade alloc] init];
         [elevatorFacade pressControlPanelButton:42];
-
+        
+            //Composite
+        printf("\n%s\n", "COMPOSITE  ---------------------------------------------------------------");
+        EKBoxContainer *rootContainer = [[EKBoxContainer alloc] init];
+        rootContainer.containerVolume = 1000;
+        
+        EKBox *box1 = [[EKBox alloc] init];
+        box1.boxVolume = 10;
+        [rootContainer addSubBox:box1];
+        
+        EKBoxContainer *container1 = [[EKBoxContainer alloc] init];
+        container1.containerVolume = 500;
+        
+        EKBox *box2 = [[EKBox alloc] init];
+        box2.boxVolume = 15;
+        [container1 addSubBox:box2];
+        
+        EKBox *box3 = [[EKBox alloc] init];
+        box3.boxVolume = 25;
+        [container1 addSubBox:box3];
+        
+        EKBoxContainer *container2 = [[EKBoxContainer alloc] init];
+        container2.containerVolume = 100;
+        
+        EKBox *box4 = [[EKBox alloc] init];
+        box4.boxVolume = 18;
+        [container2 addSubBox:box4];
+        
+        EKBoxContainer *container3 = [[EKBoxContainer alloc] init];
+        container3.containerVolume = 50;
+        
+        [container2 addSubBox:container3];
+        [container1 addSubBox:container2];
+        
+        [rootContainer addSubBox:container1];
+        [rootContainer printDescription];
     }
     return 0;
 }
