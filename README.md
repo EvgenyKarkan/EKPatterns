@@ -14,5 +14,5 @@ GOF design patterns implemented in Objective C.
 - Adapter
 - Bridge
 - Facade
-
+- Composite
 
