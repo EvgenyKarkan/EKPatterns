@@ -64,9 +64,11 @@ int main(int argc, const char * argv[])
         printf("\n%s\n", "SINGLETON  ---------------------------------------------------------------");
         EKSingleton *foo = [EKSingleton singleton];
         EKSingleton *bar = [EKSingleton singleton];
+        EKSingleton *buzz = [[EKSingleton alloc] init];
         
         NSLog(@"Foo memory address is %p", foo);
         NSLog(@"Bar memory address is %p", bar);
+        NSLog(@"Buzz memory address is %p", buzz);
         
             //STRUCTURAL----------------------------------------------------------------------------
             //Adapter
