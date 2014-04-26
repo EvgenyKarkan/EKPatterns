@@ -41,6 +41,8 @@
 		DE6E3BD318A7960200A0BBE8 /* EKBikeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E3BD218A7960200A0BBE8 /* EKBikeFactory.m */; };
 		DE6E3BD618A7A7E100A0BBE8 /* EKSmartphone.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E3BD518A7A7E100A0BBE8 /* EKSmartphone.m */; };
 		DEB899FF190BB3550067ED09 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB899FE190BB3550067ED09 /* NSMutableArray+Shuffle.m */; };
+		DEB89A02190BDAFC0067ED09 /* EKCinema.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB89A01190BDAFC0067ED09 /* EKCinema.m */; };
+		DEB89A05190BDD0F0067ED09 /* EKCinemaProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB89A04190BDD0F0067ED09 /* EKCinemaProxy.m */; };
 		DED2DB8E183AC19C009B7168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED2DB8D183AC19C009B7168 /* Foundation.framework */; };
 		DED2DB91183AC19C009B7168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2DB90183AC19C009B7168 /* main.m */; };
 		DED2DB95183AC19C009B7168 /* EKPatterns.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DED2DB94183AC19C009B7168 /* EKPatterns.1 */; };
@@ -132,6 +134,10 @@
 		DE6E3BD518A7A7E100A0BBE8 /* EKSmartphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSmartphone.m; sourceTree = "<group>"; };
 		DEB899FD190BB3550067ED09 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
 		DEB899FE190BB3550067ED09 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		DEB89A00190BDAFC0067ED09 /* EKCinema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCinema.h; sourceTree = "<group>"; };
+		DEB89A01190BDAFC0067ED09 /* EKCinema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCinema.m; sourceTree = "<group>"; };
+		DEB89A03190BDD0F0067ED09 /* EKCinemaProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCinemaProxy.h; sourceTree = "<group>"; };
+		DEB89A04190BDD0F0067ED09 /* EKCinemaProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCinemaProxy.m; sourceTree = "<group>"; };
 		DED2DB8A183AC19B009B7168 /* EKPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EKPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED2DB8D183AC19C009B7168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DED2DB90183AC19C009B7168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -473,6 +479,10 @@
 		DED2DBBB183AC5A6009B7168 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				DEB89A00190BDAFC0067ED09 /* EKCinema.h */,
+				DEB89A01190BDAFC0067ED09 /* EKCinema.m */,
+				DEB89A03190BDD0F0067ED09 /* EKCinemaProxy.h */,
+				DEB89A04190BDD0F0067ED09 /* EKCinemaProxy.m */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -554,6 +564,7 @@
 				DEB899FF190BB3550067ED09 /* NSMutableArray+Shuffle.m in Sources */,
 				DE5868DE18A6C296007ABE80 /* EKAmericanScyscraper.m in Sources */,
 				DE1AE80C18A7F81200F48568 /* EKHamburgerBuilder.m in Sources */,
+				DEB89A02190BDAFC0067ED09 /* EKCinema.m in Sources */,
 				DE010B7418AB761F0025F1E2 /* EKCamera.m in Sources */,
 				DE6E3BCA18A7933800A0BBE8 /* EKBike.m in Sources */,
 				DE010B7A18AB7C2F0025F1E2 /* EKSomeCamera.m in Sources */,
@@ -566,6 +577,7 @@
 				DE5868E418A6C57B007ABE80 /* EKAmericanHouseFactory.m in Sources */,
 				DE5868ED18A6C9AE007ABE80 /* EKEuropeCastle.m in Sources */,
 				DE6E3BD618A7A7E100A0BBE8 /* EKSmartphone.m in Sources */,
+				DEB89A05190BDD0F0067ED09 /* EKCinemaProxy.m in Sources */,
 				DE1AE80918A7F55500F48568 /* EKBurgerBuilder.m in Sources */,
 				DE010B9418ABB2F30025F1E2 /* EKDoorSystem.m in Sources */,
 				DE010B9718ABB42F0025F1E2 /* EKSoundSystem.m in Sources */,

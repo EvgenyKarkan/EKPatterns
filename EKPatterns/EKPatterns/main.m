@@ -138,6 +138,15 @@ int main(int argc, const char * argv[])
         NSMutableArray *array = [@[@"Foo", [NSObject new], @42, [NSNull null]] mutableCopy];
         NSLog(@"Before shuffle %@", array);
         NSLog(@"After shuffle %@", [array shuffle]);
+        
+            //Proxy
+        printf("\n%s\n", "PROXY  -------------------------------------------------------------------");
+        EKCinemaProxy *proxy = [[EKCinemaProxy alloc] init];
+        proxy.isPremiumAccount = NO;
+        [proxy provideAccessToFulHDMoview];
+        
+        proxy.isPremiumAccount = YES;
+        [proxy provideAccessToFulHDMoview];
     }
     return 0;
 }

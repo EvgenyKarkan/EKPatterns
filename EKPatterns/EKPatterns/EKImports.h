@@ -44,5 +44,7 @@
 #import "EKBoxContainer.h"
     //Decorator
 #import "NSMutableArray+Shuffle.h"
+    //Proxy
+#import "EKCinemaProxy.h"
 
 #endif
