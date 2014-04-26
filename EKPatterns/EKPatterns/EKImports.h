@@ -42,5 +42,7 @@
     //Composite
 #import "EKBox.h"
 #import "EKBoxContainer.h"
+    //Decorator
+#import "NSMutableArray+Shuffle.h"
 
 #endif

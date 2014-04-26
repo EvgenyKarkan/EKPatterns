@@ -132,6 +132,12 @@ int main(int argc, const char * argv[])
         
         [rootContainer addSubBox:container1];
         [rootContainer printDescription];
+        
+            //Decorator
+        printf("\n%s\n", "DECORATOR  ---------------------------------------------------------------");
+        NSMutableArray *array = [@[@"Foo", [NSObject new], @42, [NSNull null]] mutableCopy];
+        NSLog(@"Before shuffle %@", array);
+        NSLog(@"After shuffle %@", [array shuffle]);
     }
     return 0;
 }

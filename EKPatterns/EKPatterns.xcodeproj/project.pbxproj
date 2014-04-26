@@ -40,6 +40,7 @@
 		DE6E3BD018A795CA00A0BBE8 /* EKSportBike.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E3BCF18A795CA00A0BBE8 /* EKSportBike.m */; };
 		DE6E3BD318A7960200A0BBE8 /* EKBikeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E3BD218A7960200A0BBE8 /* EKBikeFactory.m */; };
 		DE6E3BD618A7A7E100A0BBE8 /* EKSmartphone.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E3BD518A7A7E100A0BBE8 /* EKSmartphone.m */; };
+		DEB899FF190BB3550067ED09 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB899FE190BB3550067ED09 /* NSMutableArray+Shuffle.m */; };
 		DED2DB8E183AC19C009B7168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED2DB8D183AC19C009B7168 /* Foundation.framework */; };
 		DED2DB91183AC19C009B7168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2DB90183AC19C009B7168 /* main.m */; };
 		DED2DB95183AC19C009B7168 /* EKPatterns.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DED2DB94183AC19C009B7168 /* EKPatterns.1 */; };
@@ -129,6 +130,8 @@
 		DE6E3BD218A7960200A0BBE8 /* EKBikeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKBikeFactory.m; sourceTree = "<group>"; };
 		DE6E3BD418A7A7E100A0BBE8 /* EKSmartphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSmartphone.h; sourceTree = "<group>"; };
 		DE6E3BD518A7A7E100A0BBE8 /* EKSmartphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSmartphone.m; sourceTree = "<group>"; };
+		DEB899FD190BB3550067ED09 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		DEB899FE190BB3550067ED09 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
 		DED2DB8A183AC19B009B7168 /* EKPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EKPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED2DB8D183AC19C009B7168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DED2DB90183AC19C009B7168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -439,6 +442,8 @@
 		DED2DBB8183AC5A6009B7168 /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				DEB899FD190BB3550067ED09 /* NSMutableArray+Shuffle.h */,
+				DEB899FE190BB3550067ED09 /* NSMutableArray+Shuffle.m */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -546,6 +551,7 @@
 				DEE9F59B18BD486200573A56 /* EKBoxContainer.m in Sources */,
 				DE5868F018A6D960007ABE80 /* EKSingleton.m in Sources */,
 				DE010B8B18AB9C660025F1E2 /* EKEngine.m in Sources */,
+				DEB899FF190BB3550067ED09 /* NSMutableArray+Shuffle.m in Sources */,
 				DE5868DE18A6C296007ABE80 /* EKAmericanScyscraper.m in Sources */,
 				DE1AE80C18A7F81200F48568 /* EKHamburgerBuilder.m in Sources */,
 				DE010B7418AB761F0025F1E2 /* EKCamera.m in Sources */,
