@@ -16,4 +16,4 @@ GOF design patterns implemented in Objective C.
 - Facade
 - Composite   
 - Decorator
-
+- Proxy
