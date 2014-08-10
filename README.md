@@ -13,7 +13,8 @@ GOF design patterns implemented in Objective C.
 ##Structural
 - Adapter
 - Bridge
-- Facade
 - Composite   
 - Decorator
+- Facade
+- Flyweight
 - Proxy
