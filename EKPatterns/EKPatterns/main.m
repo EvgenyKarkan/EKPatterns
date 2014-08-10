@@ -147,6 +147,18 @@ int main(int argc, const char * argv[])
         
         proxy.isPremiumAccount = YES;
         [proxy provideAccessToFulHDMoview];
+        
+            //Flyweight
+        printf("\n%s\n", "FLYWEIGHT----------------------------------------------------------------");
+        NSMutableArray *units = [[NSMutableArray alloc] init];
+        
+        for (NSUInteger i = 0; i < 500; i++) {
+            [units addObject:[[Dragon alloc] init]];
+        }
+        
+        for (NSUInteger i = 0; i < 500; i++) {
+            [units addObject:[[Warrior alloc] init]];
+        }
     }
     return 0;
 }

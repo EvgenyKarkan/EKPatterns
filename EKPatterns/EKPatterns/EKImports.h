@@ -46,5 +46,10 @@
 #import "NSMutableArray+Shuffle.h"
     //Proxy
 #import "EKCinemaProxy.h"
+    //Flyweight
+#import "GameHero.h"
+#import "GameHeroImageFactory.h"
+#import "Warrior.h"
+#import "Dragon.h"
 
 #endif

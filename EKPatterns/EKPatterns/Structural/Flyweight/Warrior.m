@@ -8,6 +8,17 @@
 
 #import "Warrior.h"
 
-@implementation Warrior
+@implementation Warrior;
+
+- (instancetype)init
+{
+    self = [super init];
+    
+    if (self) {
+        self.image = [GameHeroImageFactory getImage:@"warriorAsset"];
+    }
+    
+    return self;
+}
 
 @end

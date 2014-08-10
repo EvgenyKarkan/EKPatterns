@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 EvgenyKarkan. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "GameHero.h"
+#import "GameHeroImageFactory.h"
 
-@interface Dragon : NSObject
+@interface Dragon : GameHero
 
 @end

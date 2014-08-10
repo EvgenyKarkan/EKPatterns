@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 EvgenyKarkan. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 
 @interface GameHeroImageFactory : NSObject
+
++ (NSImage *)getImage:(NSString *)imageName;
 
 @end

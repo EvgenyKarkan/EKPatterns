@@ -35,6 +35,9 @@
 		DE5868EA18A6C98A007ABE80 /* EKEuropeScyscraper.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5868E918A6C98A007ABE80 /* EKEuropeScyscraper.m */; };
 		DE5868ED18A6C9AE007ABE80 /* EKEuropeCastle.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5868EC18A6C9AE007ABE80 /* EKEuropeCastle.m */; };
 		DE5868F018A6D960007ABE80 /* EKSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5868EF18A6D960007ABE80 /* EKSingleton.m */; };
+		DE6086C11997C97900A96D22 /* GameHero.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6086C01997C97900A96D22 /* GameHero.m */; };
+		DE6086C41997CA6800A96D22 /* GameHeroImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6086C31997CA6800A96D22 /* GameHeroImageFactory.m */; };
+		DE6086C61997CC7700A96D22 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6086C51997CC7700A96D22 /* AppKit.framework */; };
 		DE6E3BCA18A7933800A0BBE8 /* EKBike.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E3BC918A7933800A0BBE8 /* EKBike.m */; };
 		DE6E3BCD18A795B100A0BBE8 /* EKChopper.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E3BCC18A795B100A0BBE8 /* EKChopper.m */; };
 		DE6E3BD018A795CA00A0BBE8 /* EKSportBike.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E3BCF18A795CA00A0BBE8 /* EKSportBike.m */; };
@@ -47,6 +50,8 @@
 		DED2DB91183AC19C009B7168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2DB90183AC19C009B7168 /* main.m */; };
 		DED2DB95183AC19C009B7168 /* EKPatterns.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DED2DB94183AC19C009B7168 /* EKPatterns.1 */; };
 		DEE9F59B18BD486200573A56 /* EKBoxContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE9F59A18BD486200573A56 /* EKBoxContainer.m */; };
+		DEF58EF21997CFD9008D71B6 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF58EF11997CFD9008D71B6 /* Warrior.m */; };
+		DEF58EF51997CFE6008D71B6 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF58EF41997CFE6008D71B6 /* Dragon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -122,6 +127,11 @@
 		DE5868EC18A6C9AE007ABE80 /* EKEuropeCastle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEuropeCastle.m; sourceTree = "<group>"; };
 		DE5868EE18A6D960007ABE80 /* EKSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSingleton.h; sourceTree = "<group>"; };
 		DE5868EF18A6D960007ABE80 /* EKSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSingleton.m; sourceTree = "<group>"; };
+		DE6086BF1997C97900A96D22 /* GameHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHero.h; sourceTree = "<group>"; };
+		DE6086C01997C97900A96D22 /* GameHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHero.m; sourceTree = "<group>"; };
+		DE6086C21997CA6800A96D22 /* GameHeroImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHeroImageFactory.h; sourceTree = "<group>"; };
+		DE6086C31997CA6800A96D22 /* GameHeroImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHeroImageFactory.m; sourceTree = "<group>"; };
+		DE6086C51997CC7700A96D22 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DE6E3BC818A7933800A0BBE8 /* EKBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKBike.h; sourceTree = "<group>"; };
 		DE6E3BC918A7933800A0BBE8 /* EKBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKBike.m; sourceTree = "<group>"; };
 		DE6E3BCB18A795B100A0BBE8 /* EKChopper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKChopper.h; sourceTree = "<group>"; };
@@ -145,6 +155,10 @@
 		DED2DB94183AC19C009B7168 /* EKPatterns.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EKPatterns.1; sourceTree = "<group>"; };
 		DEE9F59918BD486200573A56 /* EKBoxContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKBoxContainer.h; sourceTree = "<group>"; };
 		DEE9F59A18BD486200573A56 /* EKBoxContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKBoxContainer.m; sourceTree = "<group>"; };
+		DEF58EF01997CFD9008D71B6 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		DEF58EF11997CFD9008D71B6 /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		DEF58EF31997CFE6008D71B6 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		DEF58EF41997CFE6008D71B6 /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6086C61997CC7700A96D22 /* AppKit.framework in Frameworks */,
 				DED2DB8E183AC19C009B7168 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +194,7 @@
 		DED2DB8C183AC19C009B7168 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE6086C51997CC7700A96D22 /* AppKit.framework */,
 				DED2DB8D183AC19C009B7168 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -472,6 +488,14 @@
 		DED2DBBA183AC5A6009B7168 /* Flyweight */ = {
 			isa = PBXGroup;
 			children = (
+				DE6086BF1997C97900A96D22 /* GameHero.h */,
+				DE6086C01997C97900A96D22 /* GameHero.m */,
+				DE6086C21997CA6800A96D22 /* GameHeroImageFactory.h */,
+				DE6086C31997CA6800A96D22 /* GameHeroImageFactory.m */,
+				DEF58EF01997CFD9008D71B6 /* Warrior.h */,
+				DEF58EF11997CFD9008D71B6 /* Warrior.m */,
+				DEF58EF31997CFE6008D71B6 /* Dragon.h */,
+				DEF58EF41997CFE6008D71B6 /* Dragon.m */,
 			);
 			path = Flyweight;
 			sourceTree = "<group>";
@@ -567,6 +591,9 @@
 				DEB89A02190BDAFC0067ED09 /* EKCinema.m in Sources */,
 				DE010B7418AB761F0025F1E2 /* EKCamera.m in Sources */,
 				DE6E3BCA18A7933800A0BBE8 /* EKBike.m in Sources */,
+				DE6086C11997C97900A96D22 /* GameHero.m in Sources */,
+				DE6086C41997CA6800A96D22 /* GameHeroImageFactory.m in Sources */,
+				DEF58EF21997CFD9008D71B6 /* Warrior.m in Sources */,
 				DE010B7A18AB7C2F0025F1E2 /* EKSomeCamera.m in Sources */,
 				DE6E3BD318A7960200A0BBE8 /* EKBikeFactory.m in Sources */,
 				DE6E3BD018A795CA00A0BBE8 /* EKSportBike.m in Sources */,
@@ -577,6 +604,7 @@
 				DE5868E418A6C57B007ABE80 /* EKAmericanHouseFactory.m in Sources */,
 				DE5868ED18A6C9AE007ABE80 /* EKEuropeCastle.m in Sources */,
 				DE6E3BD618A7A7E100A0BBE8 /* EKSmartphone.m in Sources */,
+				DEF58EF51997CFE6008D71B6 /* Dragon.m in Sources */,
 				DEB89A05190BDD0F0067ED09 /* EKCinemaProxy.m in Sources */,
 				DE1AE80918A7F55500F48568 /* EKBurgerBuilder.m in Sources */,
 				DE010B9418ABB2F30025F1E2 /* EKDoorSystem.m in Sources */,

@@ -8,6 +8,17 @@
 
 #import "Dragon.h"
 
-@implementation Dragon
+@implementation Dragon;
+
+- (instancetype)init
+{
+    self = [super init];
+    
+    if (self) {
+        self.image = [GameHeroImageFactory getImage:@"dragonAsset"];
+    }
+    
+    return self;
+}
 
 @end
