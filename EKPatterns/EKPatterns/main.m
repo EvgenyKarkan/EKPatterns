@@ -150,7 +150,7 @@ int main(int argc, const char * argv[])
         
             //Flyweight
         printf("\n%s\n", "FLYWEIGHT----------------------------------------------------------------");
-        NSMutableArray *units = [[NSMutableArray alloc] init];
+        NSMutableArray *units = [@[] mutableCopy];
         
         for (NSUInteger i = 0; i < 500; i++) {
             [units addObject:[[Dragon alloc] init]];
